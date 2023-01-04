@@ -1,10 +1,14 @@
 <?php
 
 class Database{
-  private $server_name="localhost";
-  private $username="root";
-  private $password="root";
-  private $db_name="achieve_target";
+  // private $server_name="localhost";
+  // private $username="root";
+  // private $password="root";
+  // private $db_name="achieve_target";
+  private $server_name="us-cdbr-east-06.cleardb.net";
+  private $username="b01845444fe111";
+  private $password="1528eec1";
+  private $db_name="heroku_3a18b6ccd363cd5";
   protected $conn;
 
   public function __construct(){
