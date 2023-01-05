@@ -25,7 +25,6 @@ $todo_list=$todo->getTodo();
       <li><a href="todo.php" class="nav-link">To do</a></li>
       <li><a href="category.php" class="nav-link">Category</a></li>
       <li><a href="user.php" class="nav-link">User</a></li>
-      <li><a href="menu.php" class="nav-link">Menu</a></li>
     </ul>
     <ul class="navbar-nav ms-auto">
       <!-- need add a tag-->
