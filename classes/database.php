@@ -6,9 +6,9 @@ class Database{
   // private $password="root";
   // private $db_name="achieve_target";
   private $server_name="us-cdbr-east-06.cleardb.net";
-  private $username="b01845444fe111";
-  private $password="1528eec1";
-  private $db_name="heroku_3a18b6ccd363cd5";
+  private $username="b66f6c074b40de";
+  private $password="bc303af8";
+  private $db_name="heroku_b987e74f6957046";
   protected $conn;
 
   public function __construct(){
