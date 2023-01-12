@@ -33,7 +33,7 @@ $todo_list=$todo->getTodoSelect($_GET['todo_id']);
     </ul>
     <ul class="navbar-nav ms-auto">
       <!-- need add a tag-->
-    <li class="nav-item"><a href="profile.php" class="nav-link"><i class="fa-solid fa-user"></i> Welcome <?= $_SESSION['username'] ?></a></li>
+    <li class="nav-item"><a href="dashboard.php" class="nav-link"><i class="fa-solid fa-user"></i> Welcome <?= $_SESSION['username'] ?></a></li>
     <li class="nav-item"><a href="logout.php" class="nav-link"><i class="fa-solid fa-user"></i> Log out</a></li>
 
     </ul>
